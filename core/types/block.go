@@ -73,6 +73,7 @@ type ExecutionWitness struct {
 
 // Header represents a block header in the Ethereum blockchain.
 type Header struct {
+	RpcHash     common.Hash    `json:"hash"             gencodec:"required"`
 	ParentHash  common.Hash    `json:"parentHash"       gencodec:"required"`
 	UncleHash   common.Hash    `json:"sha3Uncles"       gencodec:"required"`
 	Coinbase    common.Address `json:"miner"`
