@@ -21,7 +21,6 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 	"fmt"
-	"github.com/gballet/go-verkle"
 	"io"
 	"math/big"
 	"reflect"
